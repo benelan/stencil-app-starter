@@ -6,6 +6,7 @@ import { Component, h } from '@stencil/core';
   shadow: true,
 })
 export class AppHome {
+
   render() {
     return (
       <div class="app-home">
@@ -15,7 +16,7 @@ export class AppHome {
         </p>
 
         <stencil-route-link url="/profile/stencil">
-          <button>Profile page</button>
+          <calcite-button>Profile page</calcite-button>
         </stencil-route-link>
       </div>
     );
